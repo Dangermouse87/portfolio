@@ -11,7 +11,7 @@
 }
 
 .card-project-image {
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   height: 20rem;
   display: flex;
