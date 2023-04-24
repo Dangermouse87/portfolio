@@ -2,4 +2,4 @@
 
 Welcome to my portfolio github!
 
-Please go to [garyyau.me](https://garyyau.me/) to see the site in production 😁
+Please go to [rajan-ladwa.dev](https://rajan-ladwa.dev/) to see the site in production 😁
