@@ -13,8 +13,8 @@
     <meta property="og:image" content="https://rajan-ladwa.dev/assets/images/thumbnail.png" />
     <meta property="og:image:secure_url" content="https://rajan-ladwa.dev/assets/images/thumbnail.png" />
     <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="600" />
-    <meta property="og:image:height" content="500" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="250" />
     <meta name="twitter:card" content="summary_large_image" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon_io/apple-touch-icon.png">
@@ -32,273 +32,275 @@
     <link rel="stylesheet" href="assets/stylesheets/style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="particles.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="assets/particle-cfg.json"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <div id="particles-js"></div>
-    <div id="wrapper">
-      <header>
-        <h1 class="header-title">Rajan Ladwa</h1>
-        <nav>
-          <ul class="list-inline">
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="mailto:rladwa@gmail.com">Contact Me</a></li>
-          </ul>
-        </nav>
-      </header>
-      <div id="about-me" class="banner">
-        <div class="banner-content-container">
-          <div
-            class="card-white-profile"
-            data-aos="fade-down"
-          >
-            <div class="profile-picture">
-              <img
-                src="assets/images/rajheadshot.png"
-                class="img-circle"
-                alt="Raj Picture"
-              />
+      <div id="wrapper">
+        <header>
+          <h1 class="header-title">Rajan Ladwa</h1>
+          <nav>
+            <ul class="list-inline">
+              <li><a href="#about-me">About Me</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="mailto:rladwa@gmail.com">Contact Me</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div id="about-me" class="banner">
+          <div class="banner-content-container">
+            <div
+              class="card-white-profile"
+              data-aos="fade-down"
+            >
+              <div class="profile-picture">
+                <img
+                  src="assets/images/rajheadshot.png"
+                  class="img-circle"
+                  alt="Raj Picture"
+                />
+              </div>
+              <div class="profile-content">
+                <ul class="list-inline list-inline-profile">
+                  <li>
+                    <h1>Rajan Ladwa</h1>
+                    <h3>Fullstack Developer</h3>
+                  </li>
+                  <li>
+                    <a
+                      class="btn btn-ghost"
+                      href="RajanLadwaFS17-6.pdf"
+                      target="blank"
+                      >Resume</a
+                    >
+                  </li>
+                </ul>
+                <p>
+                  Full stack web developer based in Tokyo.<br>
+                  I am currently a Web Developer at <a href="https://sokk.jp/#COMPANY">Sokuku Inc.</a> as well as a lecturer at <a href="https://www.lewagon.com/tokyo">Le Wagon Tokyo</a>.<br>
+                  Outside of my work, you can find me playing sports, cooking and watching movies.
+                </p>
+                <ul class="list-inline">
+                  <li>
+                    <a
+                      href="https://github.com/dangermouse87"
+                      class="social-icon"
+                      target="blank"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/rajanladwa"
+                      class="social-icon"
+                      target="blank"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </li>
+                </ul>
+                <ul class="list-down">
+                  <a href="#projects">
+                    <li>Projects</li>
+                    <li><i class="fas fa-arrow-circle-down"></i></li>
+                  </a>
+                </ul>
+              </div>
             </div>
-            <div class="profile-content">
-              <ul class="list-inline list-inline-profile">
-                <li>
-                  <h1>Rajan Ladwa</h1>
-                  <h3>Fullstack Developer</h3>
-                </li>
-                <li>
+          </div>
+        </div>
+        <br />
+        <div class="title-project">
+          <h1 id="projects">Projects</h1>
+        </div>
+        <div class="content-container">
+          <div class="cards">
+            <div
+              class="card-project-image"
+              style="
+                background-image: url(assets/images/jurisjapan.png);
+                background-size: cover;
+                background-position: center;
+              "
+              data-aos="fade-right"
+
+
+            ></div>
+            <div data-aos="fade-right">
+              <div class="project-content">
+                <h1>Juris Japan</h1>
+                <h3>
+                  Project Role:
+                  <span style="font-weight: normal">Lead developer</span>
+                </h3>
+                <br />
+                <p>
+                  A web app which helps foreigners navigate difficult processes such as Permanent Residency.
+                </p>
+                <br />
+                <ul class="list-inline tech-icons">
+                  <li>
+                    <i class="icon-size devicon-rails-plain-wordmark colored icon-background"></i>
+                  </li>
+                  <li>
+                    <i
+                      class="icon-size devicon-postgresql-plain-wordmark colored icon-background"
+                    ></i>
+                  </li>
+                  <li>
+                    <i class="icon-size devicon-javascript-plain colored icon-background"></i>
+                  </li>
+                  <li>
+                    <i
+                      class="icon-size devicon-heroku-original-wordmark colored icon-background"
+                    ></i>
+                  </li>
+                  <li>
+                    <i class="icon-size devicon-html5-plain-wordmark colored icon-background"></i>
+                  </li>
+                  <li>
+                    <i class="icon-size devicon-css3-plain-wordmark colored icon-background"></i>
+                  </li>
+                </ul>
+                <div class="project-links">
                   <a
                     class="btn btn-ghost"
-                    href="RLCV0523.pdf"
+                    href="https://juris-japan.herokuapp.com/"
                     target="blank"
-                    >Resume</a
+                    >Website</a
                   >
-                </li>
-              </ul>
-              <p>
-                Full stack web developer based in Tokyo.
-                I am currently a Web Development Teaching Assistant at Le Wagon Tokyo and
-                a Junior Software Developer at Mamoru.
-              </p>
-              <ul class="list-inline">
-                <li>
                   <a
-                    href="https://github.com/dangermouse87"
-                    class="social-icon"
+                    class="btn btn-ghost"
+                    href="https://github.com/Dangermouse87/juris-japan"
                     target="blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                </li>
-                <li>
+                    >Github</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="card-project-image"
+              style="
+                background-image: url(assets/images/wanpo.png);
+                background-size: cover;
+                background-position: center;
+              "
+              data-aos="fade-right"
+            ></div>
+            <div data-aos="fade-right">
+              <div class="project-content">
+                <h1>Wanpo</h1>
+                <h3>
+                  Project Role:
+                  <span style="font-weight: normal">Project Manager</span>
+                </h3>
+                <br />
+                <p>
+                  Wanpo is a marketplace app that allows dog owners to hire dogsitters
+                  to look after their dogs while they are away.
+                </p>
+                <br />
+                <ul class="list-inline tech-icons">
+                  <li>
+                      <i class="icon-size devicon-rails-plain-wordmark colored icon-background"></i>
+                  </li>
+                  <li>
+                    <i class="icon-size devicon-postgresql-plain-wordmark colored icon-background"></i>
+                  </li>
+                  <li>
+                    <i class="icon-size devicon-javascript-plain colored icon-background"></i>
+                  </li>
+                  <li>
+                    <i class="icon-size devicon-heroku-original-wordmark colored icon-background"></i>
+                  </li>
+                  <li>
+                    <i class="icon-size devicon-html5-plain-wordmark colored icon-background"></i>
+                  </li>
+                  <li>
+                    <i class="icon-size devicon-css3-plain-wordmark colored icon-background"></i>
+                  </li>
+                </ul>
+                <div class="project-links">
                   <a
-                    href="https://www.linkedin.com/in/rajanladwa"
-                    class="social-icon"
+                    class="btn btn-ghost"
+                    href="https://raj-wanpo.herokuapp.com"
                     target="blank"
-                    ><i class="fab fa-linkedin"></i
-                  ></a>
-                </li>
-              </ul>
-              <ul class="list-down">
-                <a href="#projects">
-                  <li>Projects</li>
-                  <li><i class="fas fa-arrow-circle-down"></i></li>
-                </a>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br />
-      <div class="title-project">
-        <h1 id="projects">Projects</h1>
-      </div>
-      <div class="content-container">
-        <div class="cards">
-          <div
-            class="card-project-image"
-            style="
-              background-image: url(assets/images/jurisjapan.png);
-              background-size: cover;
-              background-position: center;
-            "
-            data-aos="fade-right"
-
-
-          ></div>
-          <div data-aos="fade-right">
-            <div class="project-content">
-              <h1>Juris Japan</h1>
-              <h3>
-                Project Role:
-                <span style="font-weight: normal">Lead developer</span>
-              </h3>
-              <br />
-              <p>
-                A web app which helps foreigners navigate difficult processes such as Permanent Residency.
-              </p>
-              <br />
-              <ul class="list-inline tech-icons">
-                <li>
-                  <i class="icon-size devicon-rails-plain-wordmark colored icon-background"></i>
-                </li>
-                <li>
-                  <i
-                    class="icon-size devicon-postgresql-plain-wordmark colored icon-background"
-                  ></i>
-                </li>
-                <li>
-                  <i class="icon-size devicon-javascript-plain colored icon-background"></i>
-                </li>
-                <li>
-                  <i
-                    class="icon-size devicon-heroku-original-wordmark colored icon-background"
-                  ></i>
-                </li>
-                <li>
-                  <i class="icon-size devicon-html5-plain-wordmark colored icon-background"></i>
-                </li>
-                <li>
-                  <i class="icon-size devicon-css3-plain-wordmark colored icon-background"></i>
-                </li>
-              </ul>
-              <div class="project-links">
-                <a
-                  class="btn btn-ghost"
-                  href="https://www.juris-japan.com"
-                  target="blank"
-                  >Website</a
-                >
-                <a
-                  class="btn btn-ghost"
-                  href="https://github.com/Dangermouse87/juris-japan"
-                  target="blank"
-                  >Github</a
-                >
+                    >Website</a
+                  >
+                  <a
+                    class="btn btn-ghost"
+                    href="https://github.com/Dangermouse87/wanpo"
+                    target="blank"
+                    >Github</a
+                  >
+                </div>
               </div>
             </div>
-          </div>
-          <div
-            class="card-project-image"
-            style="
-              background-image: url(assets/images/wanpo.png);
-              background-size: cover;
-              background-position: center;
-            "
-            data-aos="fade-right"
-          ></div>
-          <div data-aos="fade-right">
-            <div class="project-content">
-              <h1>Wanpo</h1>
-              <h3>
-                Project Role:
-                <span style="font-weight: normal">Project Manager</span>
-              </h3>
-              <br />
-              <p>
-                Wanpo is a marketplace app that allows dog owners to hire dogsitters
-                to look after their dogs while they are away.
-              </p>
-              <br />
-              <ul class="list-inline tech-icons">
-                <li>
-                    <i class="icon-size devicon-rails-plain-wordmark colored icon-background"></i>
-                </li>
-                <li>
-                  <i class="icon-size devicon-postgresql-plain-wordmark colored icon-background"></i>
-                </li>
-                <li>
-                  <i class="icon-size devicon-javascript-plain colored icon-background"></i>
-                </li>
-                <li>
-                  <i class="icon-size devicon-heroku-original-wordmark colored icon-background"></i>
-                </li>
-                <li>
-                  <i class="icon-size devicon-html5-plain-wordmark colored icon-background"></i>
-                </li>
-                <li>
-                  <i class="icon-size devicon-css3-plain-wordmark colored icon-background"></i>
-                </li>
-              </ul>
-              <div class="project-links">
-                <a
-                  class="btn btn-ghost"
-                  href="https://raj-wanpo.herokuapp.com"
-                  target="blank"
-                  >Website</a
-                >
-                <a
-                  class="btn btn-ghost"
-                  href="https://github.com/Dangermouse87/wanpo"
-                  target="blank"
-                  >Github</a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="card-project-image"
-            style="
-              background-image: url(assets/images/ghibli.png);
-              background-size: cover;
-              background-position: center;
-            "
-            data-aos="fade-right"
-          ></div>
-          <div data-aos="fade-right">
-            <div class="project-content">
-              <h1>Studio Ghibli Filmography</h1>
-              <h3>
-              </h3>
-              <br />
-              <p>
-                An app using an API to fetch and display the details of all of the films in the Studio Ghibli Filmography.
-              </p>
-              <br />
-              <ul class="list-inline tech-icons">
-                <li>
-                    <i class="icon-size devicon-rails-plain-wordmark colored icon-background"></i>
-                </li>
-                <li>
-                  <i class="icon-size devicon-tailwindcss-plain colored icon-background"></i>
-                </li>
-                <li>
-                  <i class="icon-size devicon-html5-plain-wordmark colored icon-background"></i>
-                </li>
-                <li>
-                  <i class="icon-size devicon-css3-plain-wordmark colored icon-background"></i>
-                </li>
-                <li>
-                  <i class="icon-size devicon-heroku-original-wordmark colored icon-background"></i>
-                </li>
-              </ul>
-              <div class="project-links">
-                <a
-                  class="btn btn-ghost"
-                  href="https://ghibliophile-7071794170ed.herokuapp.com/"
-                  target="blank"
-                  >Website</a
-                >
-                <a
-                  class="btn btn-ghost"
-                  href="https://github.com/Dangermouse87/ghibli"
-                  target="blank"
-                  >Github</a
-                >
+            <div
+              class="card-project-image"
+              style="
+                background-image: url(assets/images/ghibli.png);
+                background-size: cover;
+                background-position: center;
+              "
+              data-aos="fade-right"
+            ></div>
+            <div data-aos="fade-right">
+              <div class="project-content">
+                <h1>Studio Ghibli Filmography</h1>
+                <h3>
+                </h3>
+                <br />
+                <p>
+                  An app using an API to fetch and display the details of all of the films in the Studio Ghibli Filmography.
+                </p>
+                <br />
+                <ul class="list-inline tech-icons">
+                  <li>
+                      <i class="icon-size devicon-rails-plain-wordmark colored icon-background"></i>
+                  </li>
+                  <li>
+                    <i class="icon-size devicon-tailwindcss-plain colored icon-background"></i>
+                  </li>
+                  <li>
+                    <i class="icon-size devicon-html5-plain-wordmark colored icon-background"></i>
+                  </li>
+                  <li>
+                    <i class="icon-size devicon-css3-plain-wordmark colored icon-background"></i>
+                  </li>
+                  <li>
+                    <i class="icon-size devicon-heroku-original-wordmark colored icon-background"></i>
+                  </li>
+                </ul>
+                <div class="project-links">
+                  <a
+                    class="btn btn-ghost"
+                    href="https://ghibliophile-7071794170ed.herokuapp.com/"
+                    target="blank"
+                    >Website</a
+                  >
+                  <a
+                    class="btn btn-ghost"
+                    href="https://github.com/Dangermouse87/ghibli"
+                    target="blank"
+                    >Github</a
+                  >
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="footer">
-        <div class="footer-links">
-          <a href="https://github.com/dangermouse87/" target="blank"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/rajanladwa/" target="blank"><i class="fab fa-linkedin"></i></a>
+        <div class="footer">
+          <div class="footer-links">
+            <a href="https://github.com/dangermouse87/" target="blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/rajanladwa/" target="blank"><i class="fab fa-linkedin"></i></a>
+          </div>
         </div>
       </div>
-    </div>
     <script defer src="app.js"></script>
 
   </body>

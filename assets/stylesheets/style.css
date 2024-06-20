@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: #450085;
+  background-color: #adacaf;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.8);
@@ -122,9 +122,13 @@ a:hover {
 }
 
 .icon-background {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
   padding: 5px;
+}
+
+.icon-background:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .icon-size {
